@@ -1,10 +1,19 @@
+import styled from 'styled-components';
+
+const Logo = styled.img`
+
+    height: 15vh;
+    width: auto;
+
+`
+
 export default function ApplicationLogo(props) {
     return (
-        <img
+        <Logo
             {...props}
-            src="/images/logo_dasa2.webp"
-            alt="DASA Logo"
-            className="h-7 w-auto"
+            src="/images/thales-logo-removebg.png"
+            alt="Thales Logo"
+            
         />
     );
 }

@@ -27,6 +27,7 @@
         "jspdf": "^3.0.2",
         "jspdf-autotable": "^5.0.2",
         "lucide-react": "^0.542.0",
+        "styled-components": "^6.3.8",
         "xlsx": "^0.18.5"
     }
 }
